@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+ <com.google.android.material.textfield.TextInputLayout
+     android:layout_width="250dp"
+     android:layout_height="wrap_content"
+     android:layout_marginLeft="50dp"
+     android:layout_marginTop="100dp">
+     
+     <EditText
+         android:id="@+id/product_name"
+         android:layout_width="250dp"
+         android:layout_height="wrap_content"
+         android:hint="Name of the Product"
+         >
+
+     </EditText>
+     
+     
+ </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="170dp">
+
+        <EditText
+            android:lines="2"
+            android:maxLines="2"
+            android:gravity="top|left"
+            android:id="@+id/product_description"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="Product Description"
+            >
+
+        </EditText>
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="300dp">
+
+        <EditText
+            android:id="@+id/product_price"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="Product Price"
+            >
+
+        </EditText>
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <Button
+        android:id="@+id/add_image"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="400dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Add Image"
+        android:background="@drawable/rounded_buttons_dark"
+        android:textColor="@color/colortext"
+        >
+
+    </Button>
+    <Button
+        android:id="@+id/add_product"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="470dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Add Product"
+        android:background="@drawable/rounded_buttons_dark"
+        android:textColor="@color/colortext"
+        >
+
+    </Button>
+
+
+
+</RelativeLayout>

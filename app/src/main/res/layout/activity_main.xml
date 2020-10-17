@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorbackground1"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="100dp"
+        android:textColorHint="@color/colorhints"
+        android:backgroundTint="@color/stroke"
+
+        >
+        <EditText
+            android:id="@+id/Emailtxt"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:backgroundTint="@color/stroke"
+
+            android:textColor="@drawable/textview_selected"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:textColorHint="@color/colorhints"
+            android:backgroundTint="@color/stroke"
+
+
+            >
+            <EditText
+                android:id="@+id/Nametxt"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:hint="Full Name"
+                android:textColorHint="@color/colorhints"
+
+                android:textColor="@drawable/textview_selected"
+                android:backgroundTint="@color/stroke"
+
+
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:textColorHint="@color/colorhints"
+            android:backgroundTint="@color/stroke"
+
+
+            >
+            <EditText
+                android:id="@+id/Passwordtxt"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+
+                android:textColor="@drawable/textview_selected"
+                android:backgroundTint="@color/stroke"
+
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:textColorHint="@color/colorhints"
+
+            >
+            <EditText
+                android:id="@+id/BrandNametxt"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:hint="Brand Name"
+
+                android:textColor="@drawable/textview_selected"
+                android:backgroundTint="@color/stroke"
+
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+        <Button
+            android:id="@+id/button_register"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:text="Register"
+            android:textAllCaps="false"
+            android:background="@drawable/rounded_buttons"
+            android:textColor="@color/colorbackground1"
+            />
+        <Button
+            android:id="@+id/button_signup"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:text="Signup"
+            android:textAllCaps="false"
+            android:background="@drawable/rounded_buttons"
+            android:textColor="@color/colorbackground1" />
+
+
+    </LinearLayout>
+</RelativeLayout>
