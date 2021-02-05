@@ -5,8 +5,7 @@ Following are some of the screenshots of the screens of the app.
 <img src="https://github.com/rizvi101/marketing-using-geofencing/blob/master/ss/S1.png" height="300">
 <img src="https://github.com/rizvi101/marketing-using-geofencing/blob/master/ss/S2.png" height="300">
 <img src="https://github.com/rizvi101/marketing-using-geofencing/blob/master/ss/S3.png" height="300">
-<img src="https://github.com/rizvi101/marketing-using-geofencing/blob/master/ss/S5.png" height="300">
-<img src="https://github.com/rizvi101/marketing-using-geofencing/blob/master/ss/S9.png" height="300">
+
 
 <img src="https://github.com/rizvi101/marketing-using-geofencing/blob/master/ss/S10.png" height="300">
 
